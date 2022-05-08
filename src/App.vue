@@ -1,15 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ListaEscudos />
+  <PanelMarcador />
+  <RelojTiempo />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ListaEscudos from './components/Escudos.vue'
+import PanelMarcador from './components/Marcador.vue'
+import RelojTiempo from './components/Reloj.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ListaEscudos,
+    PanelMarcador,
+    RelojTiempo,
   }
 }
 </script>
